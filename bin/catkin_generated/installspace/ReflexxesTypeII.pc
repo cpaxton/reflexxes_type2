@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ReflexxesTypeII
+Description: Description of ReflexxesTypeII
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ReflexxesTypeII")
+set(ReflexxesTypeII_MAINTAINER "chris <chris@todo.todo>")
+set(ReflexxesTypeII_DEPRECATED "")
+set(ReflexxesTypeII_VERSION "0.0.0")
+set(ReflexxesTypeII_BUILD_DEPENDS )
+set(ReflexxesTypeII_RUN_DEPENDS )
+set(ReflexxesTypeII_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/chris/catkin_ws/src/ReflexxesTypeII/bin/devel
+
+Name: ReflexxesTypeII
+Description: Description of ReflexxesTypeII
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chris/catkin_ws/src/ReflexxesTypeII/bin/devel/lib 
+Requires: 

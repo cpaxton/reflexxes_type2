@@ -26,7 +26,8 @@ install(DIRECTORY include/
 )
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
-install(
-  FILES ${CMAKE_CURRENT_SOURCE_DIR}/Linux/x64/release/lib/shared/libReflexxesTypeII.so
-  DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+add_custom_target(
+  ref_install
+  COMMAND cp ${CMAKE_CURRENT_SOURCE_DIR}/Linux/x64/release/lib/shared/libReflexxesTypeII.so ${CATKIN_PACKAGE_LIB_DESTINATION}
+  DEPENDS reflexxes
 )
